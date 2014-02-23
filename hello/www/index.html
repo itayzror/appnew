@@ -1,20 +1,59 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-        <title>Track Your Dog</title>
-    </head>
-    <body>
-    <img src="img/dog.png" width="100" height="100" style="margin-left: 30px"><br>
-    <button type="button" class="btn btn-lg btn-primary">Track</button>
-    <button type="button" class="btn btn-lg btn-primary">Settings</button>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 
 
-    </body>
+    <title>Pet Track</title>
+</head>
+<body>
+
+<header>
+    <h1>Pet Track</h1>
+</header>
+
+<div id="wrapper">
+    <div id="main-content">
+        <div id="pages">
+            <div id="Track" class="current">
+                <img src="img/wireless-backyard.jpg" class="house">
+                <img id="dogPic" src="img/dog.png"  style="left: 50px" class="dog" >
+                <div>
+                    <button id="btn" type="button" class="btn btn-info" style="margin-top: 50px; margin-left: 150px ">Change location </button>
+                </div>
+
+            </div>
+            <div id="Setting">
+                <h2>page2</h2>
+
+            </div>
+            <div id="About">
+                <h2>page3</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <ul id="tab-bar">
+        <li>
+            <a href="#Track">Track</a>
+        </li>
+
+        <li>
+            <a href="#Setting">Setting</a>
+        </li>
+
+        <li>
+            <a href="#About">About</a>
+        </li>
+    </ul>
+</footer>
+<script src="js/jquery-1.7.2.js"></script>
+<script src="js/iscroll-lite.js"></script>
+<script src="js/app.js"></script>
+</body>
 </html>
