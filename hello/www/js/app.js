@@ -33,12 +33,30 @@ var theScroll;
 function scroll(){
     theScroll = new iScroll('wrapper');
 }
+var i=10;
 
 $('#btn').on('click', function(e){
+//    $.get( "http://localhost/upload.php?dog=&location=j", function( data ) {
+//        alert( "Data Loaded: " + data );
+//    });
   var dog=document.getElementById("dogPic");
-    var oldLeft =dog.style.left;
-    dog.style.left=Math.floor((Math.random()*200)+1)+'px'
-    dog.style.top = Math.floor((Math.random()*200)+1)+'px'
+  var house=document.getElementById("housePic");
+ // alert(house.height);
+        dog.style.left= house.offsetLeft+house.width/2 + 'px';
+        dog.style.top =  house.height/2 +'px';
+
+
 });
 
 document.addEventListener('DOMContentLoaded', scroll, false);
+
+
+
+
+
+//var promise = Kinvey.ping();
+//promise.then(function(response) {
+//    console.log('Kinvey Ping Success. Kinvey Service is alive, version: ' + response.version + ', response: ' + response.kinvey);
+//}, function(error) {
+//    console.log('Kinvey Ping Failed. Response: ' + error.description);
+//});

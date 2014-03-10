@@ -133,5 +133,5 @@ h1{
     z-index: 0;
 }
 
-.house { position:relative; top: 25px; left: 25px; z-index: 1; width: 50%; height: 50%; }
-.dog { position:absolute; top: 25px; left: 125px; z-index: 3; width:50px; height: 50px;   }
+.house {position: relative; z-index: 1; left: 25%; margin-top:1%; bottom: 10%; max-width: 50%; max-height: 90%; }
+.dog { position: absolute; top: 25%; left: 45%; z-index: 3; max-width: 3%; height: auto;   }
