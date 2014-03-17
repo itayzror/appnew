@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="71" selection-start="769" selection-end="769" vertical-scroll-proportion="-14.384615" vertical-offset="51" max-vertical-offset="1275">
+            <state line="25" column="71" selection-start="769" selection-end="769" vertical-scroll-proportion="0.7657658" vertical-offset="0" max-vertical-offset="1275">
               <folding />
             </state>
           </provider>
@@ -41,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="27" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.29776248" vertical-offset="473" max-vertical-offset="1207">
+            <state line="38" column="27" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
               <folding />
             </state>
           </provider>
@@ -62,7 +62,7 @@
       <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="93" selection-start="2522" selection-end="2522" vertical-scroll-proportion="0.0" vertical-offset="371" max-vertical-offset="952">
+            <state line="48" column="20" selection-start="3384" selection-end="3384" vertical-scroll-proportion="0.0" vertical-offset="371" max-vertical-offset="952">
               <folding />
             </state>
           </provider>
@@ -81,9 +81,9 @@
         <option value="$PROJECT_DIR$/www/css/newApp.css" />
         <option value="$PROJECT_DIR$/www/js/iscroll-lite.js" />
         <option value="$PROJECT_DIR$/www/css/style.css" />
-        <option value="$PROJECT_DIR$/www/config.xml" />
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/js/app.js" />
+        <option value="$PROJECT_DIR$/www/config.xml" />
       </list>
     </option>
   </component>
@@ -482,13 +482,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="93" selection-start="2522" selection-end="2522" vertical-scroll-proportion="0.0" vertical-offset="371" max-vertical-offset="952">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="307" column="25" selection-start="4630" selection-end="4653" vertical-scroll-proportion="0.0" vertical-offset="4890" max-vertical-offset="98447">
@@ -496,16 +489,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="71" selection-start="769" selection-end="769" vertical-scroll-proportion="-14.384615" vertical-offset="51" max-vertical-offset="1275">
+        <state line="38" column="27" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+    <entry file="file://$PROJECT_DIR$/www/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="27" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.29776248" vertical-offset="473" max-vertical-offset="1207">
+        <state line="48" column="20" selection-start="3384" selection-end="3384" vertical-scroll-proportion="0.0" vertical-offset="371" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="71" selection-start="769" selection-end="769" vertical-scroll-proportion="0.7657658" vertical-offset="0" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>
