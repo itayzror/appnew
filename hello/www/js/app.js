@@ -36,7 +36,7 @@ function scroll(){
 
 
 $('#btn').on('click', function(e){
-    $.get( "http://localhost/upload.php?client=", function( data ) {
+    $.get( "http://10.0.0.2/upload.php?client=", function( data ) {
        alert( "Data Loaded: " + data );
         var dog=document.getElementById("dogPic");
         var house=document.getElementById("housePic");
