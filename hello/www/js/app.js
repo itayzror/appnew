@@ -33,17 +33,20 @@ var theScroll;
 function scroll(){
     theScroll = new iScroll('wrapper');
 }
-var i=10;
+
 
 $('#btn').on('click', function(e){
-//    $.get( "http://localhost/upload.php?dog=&location=j", function( data ) {
-//        alert( "Data Loaded: " + data );
-//    });
-  var dog=document.getElementById("dogPic");
-  var house=document.getElementById("housePic");
- // alert(house.height);
-        dog.style.left= house.offsetLeft+house.width/2 + 'px';
-        dog.style.top =  house.height/2 +'px';
+    $.get( "http://localhost/upload.php?client=", function( data ) {
+       alert( "Data Loaded: " + data );
+        var dog=document.getElementById("dogPic");
+        var house=document.getElementById("housePic");
+        dog.style.left= house.offsetLeft+house.width/2 + data/10+ 'px';
+        dog.style.top =  house.height/2 + data/10+ 'px';
+
+    });
+
+// alert(house.height);
+
 
 
 });
